@@ -5,65 +5,88 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <TableRow
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#daca36"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#3fb34a"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#2d58a7"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#3fb34a"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#2d58a7"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#daca36"
+            android:layout_height="match_parent"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#daca36"
+            android:layout_height="match_parent"
+            />
 
-    <TableRow>
-        <TextView
-            android:background="#53b63d"
-            android:gravity="center"
-            android:layout_height="wrap_content"
+        <View
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:padding="10dp"
-            android:textSize="30sp"
-            android:text="View 1"/>
+            android:background="#2d58a7"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#3fb34a"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#2d58a7"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#3fb34a"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#daca36"
+            android:layout_height="match_parent"
+            />
     </TableRow>
-    <TableRow>
-        <TextView
-            android:background="#39af86"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:padding="10dp"
-            android:textSize="30sp"
-            android:text="View 2"/>
-        <TextView
-            android:background="#9b1e7e"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:padding="10dp"
-            android:textSize="30sp"
-            android:text="View 3"/>
-        <TextView
-            android:background="#af916a"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:padding="10dp"
-            android:textSize="30sp"
-            android:text="View 4"/>
-    </TableRow>
-    <TableRow>
-        <TextView
-            android:background="#9b1e7e"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:padding="10dp"
-            android:textSize="30sp"
-            android:text="View 5"/>
-        <TextView
-            android:background="#af916a"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:padding="10dp"
-            android:textSize="30sp"
-            android:text="View 6"/>
-    </TableRow>
+
 </TableLayout>
